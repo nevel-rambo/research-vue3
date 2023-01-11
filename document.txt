@@ -1,0 +1,18 @@
+vue3 vs vue2
+#Vue 2 will reach End of Life on December 31st, 2023.
+
+#Fragment ~ multiple root
+#module hóa dùng cái gì import cái đó v2 
+#watchEffect để theo dõi sự thay đổi của 1 biến ngay lập tức.
+#Cơ chế xử lý reactive mới: 
+  = v2 xử lý reactive là thông qua getter và setter của Object.defineProperty.
+  = Proxy
+
+#Composition API (optional) hook, chỉ dc dùng trong setup
+  ##Những thuộc tính trả về từ setup ta có thể biết rõ ràng chúng đến từ đâu, import từ file nào, kiểu là gì,...
+  ##Các thuộc tính đó có thể có tên tuỳ ý do đó ta không phải lo về việc trùng lặp tên như đã nói ở trên
+  ##Ta có thể tổ chức code theo logic rành mạch, nhóm các thành phần của từng chức năng thành từng cụm cụ thể, hoặc tách chúng ra thành 1 file riêng.
+  ##Composition API support rất tốt cho Typescript
+#Teleport Mục đích là để render nội dung ra bên ngoài ứng dụng Vue. #app thường dùng tooltip, model
+#Suspense
+#onErrorCaptured
